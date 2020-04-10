@@ -1,0 +1,42 @@
+.find_header {
+  padding-bottom: 20px;
+}
+
+.find_header-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.find_header-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+}
+
+.find_title {
+  padding: 10px 0;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.friends_friend {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.friend_column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friend_content {
+  padding: 0 10px;
+}
+
+.friend_add-btn {
+  background-color: #d3d3d3;
+}

@@ -1,0 +1,41 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: #fcfcfc;
+  left: 0;
+  bottom: 0;
+  padding: 15px 0;
+  border-top: 1px solid #f7f7f7;
+}
+
+.nav_list {
+  display: flex !important;
+  justify-content: space-around;
+}
+
+.nav i {
+  font-size: 20px;
+}
+
+.nav_list-item {
+  cursor: pointer;
+}
+
+.nav .nav_list-link {
+  position: relative;
+}
+
+.nav_badge {
+  position: absolute;
+  top: -5px;
+  left: 11px;
+  font-size: 10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
