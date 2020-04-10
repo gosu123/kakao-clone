@@ -8,3 +8,9 @@ body {
   color: #020202;
   font-family: "Open Sans", sans-serif;
 }
+
+.g-avartar {
+  height: 40px;
+  background-color: #020202;
+  border-radius: 17px;
+}
