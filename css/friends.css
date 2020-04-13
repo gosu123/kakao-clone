@@ -1,0 +1,87 @@
+.friends {
+  width: 100%;
+}
+.friend-lg {
+  zoom: 1.2;
+}
+.friends_list {
+  width: 100%;
+  max-width: 100%;
+}
+
+.friends_title,
+.friends_plus-title {
+  opacity: 0.6;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.friends_friend {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.friend_column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+  /* white-space: nowrap; */
+  /* text-overflow: ellipsis; */
+}
+
+.friend_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 80%;
+  padding: 0 10px;
+}
+
+.friend_name {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.friend_status {
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: 400;
+  max-height: 12px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.friend_listening {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.7;
+  max-height: 12px;
+}
+
+.friend_now-listening {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  border: 2px solid #57e689;
+  border-radius: 15px;
+  height: 25px;
+  width: 100%;
+}
+
+.friend_listening-song {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.friend_listening-icon {
+  margin-left: 5px;
+  color: #57e689;
+}

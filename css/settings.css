@@ -1,0 +1,21 @@
+.settings {
+  /* border-top: 1px solid #f7f7f7; */
+}
+
+.settings_list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  border-top: 1px solid #f7f7f7;
+}
+
+.settings_setting {
+  margin: 11px 0;
+  width: 100%;
+  display: flex;
+}
+
+.settings_icon {
+  width: 30px;
+  opacity: 0.6;
+}

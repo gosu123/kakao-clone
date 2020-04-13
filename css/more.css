@@ -1,0 +1,68 @@
+.friend_my-profile {
+  font-size: 28px;
+}
+
+.more_btn-list {
+  display: flex;
+  margin: 10px 0;
+}
+
+.more_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  width: 110px;
+}
+
+.more_btn-icon {
+  height: 50px;
+  width: 50px;
+  padding: 5px 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more_btn-title {
+  font-size: 13px;
+}
+
+.more_suggestions {
+  border-top: 1px solid #f7f7f7;
+  padding: 10px 0;
+}
+
+.more_title {
+  padding: 10px 0;
+}
+
+.more_suggestions-list {
+  display: flex;
+}
+
+.more_suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  width: 110px;
+}
+
+.suggestion_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fed000;
+  color: azure;
+  padding: 5px 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
+}
+
+.suggestion_title {
+  font-size: 13px;
+  padding: 10px 0;
+}
