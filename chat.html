@@ -10,36 +10,38 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
-    <div class="status-bar">
-      <div class="status-bar_column">
-        <span class="status-bar_clock">13:54</span>
+  <body class="chat-body">
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar_column">
+          <span class="status-bar_clock">13:54</span>
+        </div>
+        <div class="status-bar_column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar_battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar_column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar_battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <header class="header chat-header">
+        <div class="header_header-column">
+          <a href="index.html" class="header_back-btn">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <h1 class="header_title">Best Friend</h1>
+        </div>
+        <div class="header_header-column">
+          <span class="header_icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header_icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
     </div>
-    <header class="header chat-header">
-      <div class="header_header-column">
-        <a href="index.html" class="header_back-btn">
-          <i class="fas fa-arrow-left"></i>
-        </a>
-        <h1 class="header_title">Best Friend</h1>
-      </div>
-      <div class="header_header-column">
-        <span class="header_icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header_icon">
-          <i class="fas fa-bars"></i>
-        </span>
-      </div>
-    </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat_messages">
         <div class="chat_timestamp">
           <div class="chat_timestamp-time-box">
@@ -52,16 +54,21 @@
           <div class="message_content">
             <span class="message_author">Best Friend</span>
             <div class="message_bubble">
-              A lot of congrats on your engagement!
+              <span>
+                A lot of congrats on your
+                engagement!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+              </span>
             </div>
           </div>
-          <span class="message_timestamp"></span>
+          <span class="message_timestamp">15:19</span>
         </li>
         <li class="sending-message message">
-          <span class="message_timestamp"></span>
+          <span class="message_timestamp">15:22</span>
           <div class="message_content">
             <div class="message_bubble">
-              Thank you see you soon!
+              <span>
+                Thank you see you soon!
+              </span>
             </div>
           </div>
         </li>
@@ -70,10 +77,12 @@
           <div class="message_content">
             <span class="message_author">Best Friend</span>
             <div class="message_bubble">
-              Sounds great!!!!
+              <span>
+                Sounds great!!!!
+              </span>
             </div>
           </div>
-          <span class="message_timestamp"></span>
+          <span class="message_timestamp">15:23</span>
         </li>
       </ul>
     </main>
@@ -82,7 +91,11 @@
         <i class="far fa-plus-square"></i>
       </div>
       <div class="chat_write-column">
-        <textarea rows="1" class="chat_write-input"></textarea>
+        <textarea
+          placeholder="Send message"
+          rows="1"
+          class="chat_write-input"
+        ></textarea>
       </div>
       <div class="chat_write-column">
         <span class="chat_write-icon">
