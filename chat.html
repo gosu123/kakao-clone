@@ -87,24 +87,19 @@
       </ul>
     </main>
     <div class="chat_write">
-      <div class="chat_write-column">
+      <textarea
+        placeholder="Send message"
+        rows="1"
+        class="chat_write-input"
+        maxlength="100"
+      ></textarea>
+      <span class="chat_write-icon icon-left">
         <i class="far fa-plus-square"></i>
-      </div>
-      <div class="chat_write-column">
-        <textarea
-          placeholder="Send message"
-          rows="1"
-          class="chat_write-input"
-        ></textarea>
-      </div>
-      <div class="chat_write-column">
-        <span class="chat_write-icon">
-          <i class="far fa-smile"></i>
-        </span>
-        <span class="chat_write-icon">
-          <i class="fas fa-microphone-alt"></i>
-        </span>
-      </div>
+      </span>
+      <span class="chat_write-icon icon-right">
+        <i class="far fa-smile"></i>
+        <i class="fas fa-microphone-alt"></i>
+      </span>
     </div>
   </body>
 </html>
